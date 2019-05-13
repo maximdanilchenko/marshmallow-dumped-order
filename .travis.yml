@@ -1,0 +1,16 @@
+dist: xenial
+
+language: python
+
+python:
+  - 3.6
+  - 3.7
+  - nightly
+matrix:
+  allow_failures:
+    - python: nightly
+install:
+  - pip install -q -r dev-requirements.txt --no-cache-dir --upgrade
+script:
+  - make test
+after_success: codecov
