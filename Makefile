@@ -2,7 +2,7 @@
 # Tests
 #######
 test:
-	python -m coverage run setup.py test
+	coverage run --source=marshmallow_dumped_order setup.py test
 
 upload:
 	rm dist/*
