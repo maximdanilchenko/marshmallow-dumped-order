@@ -23,7 +23,7 @@ setup(
     license="MIT",
     url="https://github.com/maximdanilchenko/marshmallow-dumped-order",
     zip_safe=False,
-    keywords="marshmallow apispec dump order",
+    keywords="marshmallow schema dump fields order",
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",

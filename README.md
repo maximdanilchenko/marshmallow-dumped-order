@@ -1,5 +1,6 @@
 ## marshmallow-dumped-order
 
+[![PyPI version](https://badge.fury.io/py/marshmallow-dumped-order.svg)](https://badge.fury.io/py/marshmallow-dumped-order)
 [![Build Status](https://travis-ci.org/maximdanilchenko/marshmallow-dumped-order.svg?branch=master)](https://travis-ci.org/maximdanilchenko/marshmallow-dumped-order)
 [![codecov](https://codecov.io/gh/maximdanilchenko/marshmallow-dumped-order/branch/master/graph/badge.svg)](https://codecov.io/gh/maximdanilchenko/marshmallow-dumped-order)
 
