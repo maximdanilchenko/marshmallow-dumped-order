@@ -9,7 +9,7 @@ def read(file_name):
 
 setup(
     name="marshmallow-dumped-order",
-    version="1.0.0",
+    version="1.1.0",
     description="Decorator for `marshmallow.Schema` to sort fields "
                 "in needed order while dumping",
     long_description=read("README.md"),

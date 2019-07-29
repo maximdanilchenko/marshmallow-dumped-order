@@ -31,7 +31,11 @@ def dumped_order(*fields_names):
             @post_dump
             def right_ordering(self, data):
                 return {
-                    **{field_name: data.pop(field_name) for field_name in fields_names},
+                    **{
+                        field_name: data.pop(field_name)
+                        for field_name in fields_names
+                        if field_name in data
+                    },
                     **data,
                 }
 
